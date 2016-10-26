@@ -1,0 +1,41 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+body {
+    background: #000;
+    font-family: verdana;
+    color: aliceblue;
+    font-size: 12px;
+    line-height: 1.0;
+}
+#header{
+    margin: auto;
+    position: relative;
+    background-color: #020c0d;
+    text-align: center;
+}
+.inicio{
+    background-color: #020c0d;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li {
+    background: #670709;
+    color: aliceblue;
+    padding: 15px 70px;
+    display: inline-block;
+}
+.nav >li{
+    float: center;
+}
+.nav li:hover{
+    background-color: #434343;
+    
+}
+.nav ul {
+    display: none;
+}
+
+
